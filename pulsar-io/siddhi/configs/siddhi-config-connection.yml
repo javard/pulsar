@@ -1,0 +1,4 @@
+configs:
+    siddhiTCPServerURL: "localhost"
+    siddhiTCPServerPort: "9892"
+    siddhiChannelID: "connection"

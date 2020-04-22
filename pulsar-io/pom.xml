@@ -57,6 +57,8 @@
     <module>redis</module>
     <module>solr</module>
     <module>influxdb</module>
+    <module>siddhi</module>
+    <module>clickhouse</module>
   </modules>
 
 </project>

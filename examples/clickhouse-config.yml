@@ -1,0 +1,12 @@
+configs:
+    jdbcUrl: "jdbc:clickhouse://localhost:8123/test_db"
+    tableName: "mon_table"
+    schemaName: "test_db"
+    columnsMap:
+        EXECUTABLE_ID: "a"
+        SEMANTIC_ENV_ID: "b"        
+        PLANID: "d"
+        STMTID: "c"
+        AVG_EXEC_TIME: "e"
+        SNAPSHOT_TIME: "f"
+    batchSize: 30
